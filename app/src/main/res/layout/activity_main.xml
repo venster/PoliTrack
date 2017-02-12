@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -16,16 +17,19 @@
         android:id="@+id/tableRow"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="50dp" >
+
+        android:layout_marginBottom="20dp">
+
+
 
         <ImageButton
         android:layout_height="wrap_content"
         android:background="@android:drawable/ic_menu_mylocation"
         android:id="@+id/locButton"
         android:scaleType="fitCenter"
-        android:layout_width="wrap_content"
-        android:maxWidth="45dp"
-        android:maxHeight="45dp"
+        android:layout_width="match_parent"
+        android:maxWidth="50dp"
+        android:maxHeight="50dp"
         android:adjustViewBounds="true"
 
 
